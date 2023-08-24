@@ -30,8 +30,9 @@ jobs:
 
   linting :
     name : Pylint
-    needs: build
     runs-on : ubuntu-latest
     steps :
+      - name : Install linter
+        run : pip install pylint
       - name : Run linter
         run : pylint ./mklearn
