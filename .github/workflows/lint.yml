@@ -1,0 +1,25 @@
+name : linting-python-code
+
+run-name : ${{ github.actor }} is learning Github Actions
+
+on :
+  workflow_dispatch :
+
+  push:
+    branches :
+      - main
+      - develop
+  
+  pull_request:
+    branches :
+      - main
+      - develop
+
+jobs:
+  job1 :
+
+    name : Pylint
+    runs-on : ubuntu-latest
+    
+    
+    run : pylint ./mklearn
