@@ -1,2 +1,0 @@
-# Experiments 
-In the Experiments folder, you have an opportunity to explore and innovate freely. This folder remains **untracked** by Git and won't be pushed to GitHub, granting you the freedom to experiment with new features, add files, and test novel ideas without impacting the main project. Embrace this space to its fullest as you drive innovation forward.
